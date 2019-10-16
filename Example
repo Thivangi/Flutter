@@ -37,6 +37,19 @@ class MyAppBar extends StatelessWidget {
   }
 }
 
+
+
+
+void main() {
+ print('hello nsbm');
+  addNumbers(2,2);
+  addNumbers(2,4);
+}
+
+addNumbers(int a,int b){
+  print(a+b);
+}
+
 class MyScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
